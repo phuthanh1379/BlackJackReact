@@ -1,0 +1,102 @@
+body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+  
+ol, ul {
+    padding-left: 30px;
+}
+
+p {
+  color: whitesmoke;
+}
+
+h3 {
+  position: absolute;
+  margin-left: 30em;
+  margin-top: 10em;
+  font-style: oblique;
+  font-size: 2em;
+  color: red;
+  text-align: center;
+}
+
+.carte-slot {
+  border: 1px solid green;
+  height: 189px;
+  width: 139px;
+  background-size: 100% 100%;
+}
+
+.dealer-board:after {
+  clear: both;
+  content: "";
+  display: table;
+  margin: 0 auto;
+}
+
+ul#horizontal-list {
+  min-width: 696px;
+  list-style: none;
+  padding-top: 20px;
+}
+
+ul#horizontal-list li {
+  display: inline-block;
+}
+
+.jouer-board:after {
+  clear: both;
+  content: "";
+  display: table;
+  margin: 0 auto;
+}
+
+.game-title {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url('../../materials/img_bg.jpg');
+  width: 500px;
+  height: 100px;
+  background-size: 100% 100%;
+}
+
+.buttons {
+  background-color: white;
+  margin-left: 24.8 em;
+  width: 700px;
+  padding-top: 10px;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.nouvelle-partie {
+  display: block;
+  flex: 0 1 auto;
+  width: 30%;
+}
+
+.prend {
+  display: block;
+  flex: 0 1 auto;
+  width: 30%;
+}
+
+.terminer {
+  display: block;
+  flex: 0 1 auto;
+  width: 30%;
+}
+
+.game-board {
+  display: table;
+  flex-direction: row;
+  min-height: 100%;
+  min-width: 100%;
+  text-align: center;
+}
